@@ -13,6 +13,6 @@ end
 
 def assign_rooms(names)
   numbers = Hash.new
-  names.each_with_index { |item, index|
+  names.each_with_index { |item, index|}
   hash[item] = index
 }
