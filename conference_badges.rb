@@ -16,7 +16,7 @@ def assign_rooms(names)
   arr
 end
 
-def printer(attendees)
+def printer(names)
   arr = []
   
   batch_badge_creator(attendees)
