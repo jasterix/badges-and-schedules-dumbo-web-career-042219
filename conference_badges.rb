@@ -20,7 +20,7 @@ def batch_badge_creator(attendees)
 def assign_rooms(names)
   arr=[]
   names.each_with_index {|value, index| arr << "Hello, #{value}! You'll be assigned to room #{index+1}!"}
-  puts arr
+  arr
 end
 
 
