@@ -7,7 +7,7 @@ end
 def batch_badge_creator(names)
   arr = []
   names.each {|name| arr<< badge_maker(name)}
-  arr
+  puts arr
   end
 
 def assign_rooms(names)
