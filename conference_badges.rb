@@ -10,7 +10,7 @@ def batch_badge_creator(attendees)
   arr
      # numbers.each { |x| arr << x if number%x==0}
   end
-end
+
 
 
 # def batch_badge_creator(names)
