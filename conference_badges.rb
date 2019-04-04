@@ -19,7 +19,7 @@ end
 def printer
   badges = batch_badge_creator
   rooms = assign_rooms
-  bages.chomp
+  badges.chomp
   rooms
 end
   
