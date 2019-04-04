@@ -4,11 +4,10 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
   
-  def batch_badge_creator(names)
-    arr = []
-    names = names
-    names.each {|name| arr<< name}
-    puts arr
+def batch_badge_creator(attendees)
+  arr = []
+  attendees.each {|name| arr<< puts name}
+  puts arr
      # numbers.each { |x| arr << x if number%x==0}
   end
 end
