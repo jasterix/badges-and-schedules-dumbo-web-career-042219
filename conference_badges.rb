@@ -23,7 +23,7 @@ def assign_rooms(names)
   arr
 end
 
-def printer(attendees)
-  assign_rooms(attendees)
+def printer
+  assign_rooms(names)
 end
   
