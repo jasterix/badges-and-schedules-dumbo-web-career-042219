@@ -14,6 +14,7 @@ end
 def assign_rooms(names)
   numbers = Hash.new
   names.each_with_index { |item, index|}
-    puts 
+    puts "Hello, #{name}! You'll be assigned to room #{index}!"
+
   hash[item] = index
 }
