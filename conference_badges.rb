@@ -11,6 +11,7 @@ def batch_badge_creator(attendees)
      # numbers.each { |x| arr << x if number%x==0}
   end
 end
+end 
 
 # def batch_badge_creator(names)
 #   names.each do |name|
