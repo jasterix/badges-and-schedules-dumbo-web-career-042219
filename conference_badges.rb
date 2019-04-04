@@ -22,7 +22,6 @@ def assign_rooms(names)
   names.each.with_index(1) {|value, index| arr << "Hello, #{value}! You'll be assigned to room #{index}!"}
 
 end
-end
 
 
 # def assign_rooms(names)
