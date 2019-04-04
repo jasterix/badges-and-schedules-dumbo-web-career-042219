@@ -17,7 +17,7 @@ def assign_rooms(names)
 end
 
 def printer
-  badges = atch_badge_creator
+  badges = atch_badge_creator(attendees)
   rooms = assign_rooms
   bages.chomp
   rooms
