@@ -5,9 +5,12 @@ def badge_maker(name)
 end
   
 def batch_badge_creator(names)
-  names.each do |name|
-    badge_maker(name)
+  arr=[]
+  names.each { |name| arr<< badgemaker(name)}
+  
+  #  badge_maker(name)
     #puts "Hello, my name is" #{name}
+      #numbers.each { |x| arr << x if number%x==0}
   end
 end
 
