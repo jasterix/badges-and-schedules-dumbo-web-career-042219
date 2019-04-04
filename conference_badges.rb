@@ -10,3 +10,8 @@ def batch_badge_creator(names)
     #puts "Hello, my name is" #{name}
   end
 end
+def 
+hash = Hash.new
+%w(cat dog wombat).each_with_index { |item, index|
+  hash[item] = index
+}
