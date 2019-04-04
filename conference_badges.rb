@@ -24,5 +24,5 @@ def printer(names)
     puts name
   end
 end
-end
+
   
