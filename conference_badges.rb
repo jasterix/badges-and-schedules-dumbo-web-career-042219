@@ -12,13 +12,10 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-  numbers = Hash.new
-  names.each_with_index { |item, index|}
-    puts "Hello, #{name}! You'll be assigned to room #{index}!"
-
-  hash[item] = index
+  names.each_with_index do |value, index|
+    puts "Hello, #{value}! You'll be assigned to room #{index}!"
 }
 
-['hello', 'universe'].each_with_index do |value, index|
-  puts "#{index}: #{value}"
-end
+# ['hello', 'universe'].each_with_index do |value, index|
+#   puts "#{index}: #{value}"
+# end
