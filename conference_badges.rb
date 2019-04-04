@@ -18,7 +18,7 @@ end
 
 def printer(names)
   arr=[]
-  names.each do {|x| arr<< puts "#{batch_badge_creator(names)}"}
+  names.each do {|x| arr<< batch_badge_creator(names)}
 end
 end
   
