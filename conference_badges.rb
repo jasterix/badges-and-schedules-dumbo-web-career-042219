@@ -20,7 +20,7 @@ def printer(attendees)
   arr = []
   
   batch_badge_creator(attendees)
-  assign_rooms
+  assign_rooms(attendees)
 
 end
   
