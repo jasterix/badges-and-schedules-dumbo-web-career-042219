@@ -17,7 +17,7 @@ def assign_rooms(names)
 end
 
 def printer(batch_badge_creator)
-  puts "#{name} #{assign_rooms(names)}"
+  puts "#{assign_rooms(names)}"
 
 end
   
