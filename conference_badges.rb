@@ -7,11 +7,11 @@ end
 def batch_badge_creator(attendees)
   arr = []
   attendees.each {|name| arr<< name}
-  puts arr
+  arr
      # numbers.each { |x| arr << x if number%x==0}
   end
 end
-end 
+
 
 # def batch_badge_creator(names)
 #   names.each do |name|
