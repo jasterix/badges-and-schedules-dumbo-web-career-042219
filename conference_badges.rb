@@ -17,8 +17,8 @@ def assign_rooms(names)
 end
 
 def printer(batch_badge_creator)
-  puts batch_badge_creator(name).chomp
-  puts assign_rooms(attendees)
+  puts batch_badge_creator(names)
+  puts assign_rooms(names)
 
 end
   
