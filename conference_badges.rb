@@ -16,6 +16,7 @@ def assign_rooms(names)
     puts "Hello, #{value}! You'll be assigned to room #{index}!"
 }
 end
+end
 
 # ['hello', 'universe'].each_with_index do |value, index|
 #   puts "#{index}: #{value}"
