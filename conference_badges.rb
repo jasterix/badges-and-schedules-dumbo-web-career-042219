@@ -12,7 +12,7 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-hash = Hash.new
+  numbers = Hash.new
 %w(cat dog wombat).each_with_index { |item, index|
   hash[item] = index
 }
