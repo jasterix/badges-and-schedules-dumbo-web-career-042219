@@ -6,6 +6,7 @@ end
   
   def batch_badge_creator(names)
     arr = []
+    names = names
     names.each {|name| arr<< name}
     puts arr
      # numbers.each { |x| arr << x if number%x==0}
